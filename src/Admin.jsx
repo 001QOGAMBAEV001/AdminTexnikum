@@ -57,7 +57,7 @@ const Admin = () => {
             yonalish: editingUser.yonalish,
             talimTuri: editingUser.talimTuri,
             dtmTestBali: editingUser.dtmTestBali,
-            source: editingUser.source
+            //source: editingUser.source
         };
     
         console.log('Yuborilayotgan ma\'lumotlar:', updatedUser);
@@ -313,13 +313,7 @@ const Admin = () => {
                                 fullWidth
                                 margin="normal"
                             />
-                            <TextField
-                                label="Manba"
-                                value={editingUser.source}
-                                onChange={(e) => setEditingUser({...editingUser, source: e.target.value})}
-                                fullWidth
-                                margin="normal"
-                            />
+                          // manba degendi oshirdim
                         </>
                     )}
                 </DialogContent>
