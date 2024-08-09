@@ -313,7 +313,7 @@ const Admin = () => {
                                 fullWidth
                                 margin="normal"
                             />
-                          // manba degendi oshirdim
+                         
                         </>
                     )}
                 </DialogContent>
